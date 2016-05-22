@@ -1,0 +1,7 @@
+1. assert
+assert condition, "Error!"
+//roughly translates to
+if not condition:
+	raise AssertionError(); // + "Error!"
+
+2. 
